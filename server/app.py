@@ -21,7 +21,7 @@ api = Api(app)
 
 @app.route('/')
 def index():
-    return "Welcome to Pizza Restaurant API"
+    return "CODE CHALLENGE PIZZA RESTAURANT"
 
 class Restaurants(Resource):
     def get(self):
